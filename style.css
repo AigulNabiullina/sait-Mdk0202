@@ -1,0 +1,218 @@
+body {
+    margin:0;
+    font-family: 'Coming Soon', cursive;
+    font-size: 15px;
+    color: black;
+}
+
+*,
+*:before,
+*:after
+
+{box-sizing: border-box;}
+
+.cotntainer {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+p{
+    margin: 0 0 10px;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 106px;
+     padding: 35px 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav__link{
+    width: 71px;
+    height: 66px;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    opacity: .75;
+}
+.lapka{
+    background: url(img/lapka.png);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.nav__link:first-child{
+    margin-left: 0px;
+}
+.nav__link:hover {
+    opacity: 1;
+}
+.intro{
+    height: 500px;
+    background: #c7b39b url(img/fonb.jpg); 
+    background-repeat: repeat repeat;
+    background-size: cover;
+    color: darkslategrey;
+    padding-top: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro__title{
+     font-size: 50px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.features{
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.features__item{
+    width: 30%;
+    text-align: center;
+    margin: 15px 15px;
+    margin: auto;
+}
+.features__icon{
+   margin-bottom: 20px; 
+}
+.featyres__title{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.person{
+    background: url(img/corm.jpg) repeat repeat ;
+    color: black;
+    padding: 50px;
+    padding-bottom: 0;
+}
+.person__icon{
+    padding: 10px; 
+    background: rgba(255,255,255, 0.8); 
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.person__text{
+     padding: 10px;
+    font-size: 20px;
+} 
+h5{
+    color: white;
+    font-size: 20px;
+}
+.models{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.models_image{
+    opacity:0.7;
+    width: 25%;
+    height: 240;
+    top: 0;
+    left: 0;
+
+    transition: opacity .1s linear;
+}
+.models_image:hover {
+    opacity: 1;
+}
+.models__text{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: url(img/cormgradient.jpg) repeat no-repeat;
+    
+}
+.footer{
+    background: #c7b39b url(img/fongradient.jpg); 
+    background-repeat: repeat no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    
+}
+.footer__inner{
+    display: flex;
+    justify-content: center;
+}
+.footer__blok{
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+.footer__blok:first-child{
+    margin-left: 0px;
+}
+.btt-social{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    background: #fff;
+    border: 3px solid #fff;
+    border-radius:6px;
+    opacity: 0.5;
+}
+.btt-social:hover{
+    opacity: 1;
+}
+h7{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btt{
+  display: flex;
+    font-size: 20px;
+    width: 170px;
+    text-transform: uppercase;
+     justify-content: center;
+}
+.footer__copyring{
+    background: url(img/fonb.jpg) repeat repeat;
+    padding: 20px 0;
+    text-align:  center;
+}
+h8{
+    font-size: 17px;
+    padding: 20px 0;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .intro__title{
+        font-size: 35px;   
+    }
+    
+}
